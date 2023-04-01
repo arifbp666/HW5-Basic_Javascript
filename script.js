@@ -1,9 +1,4 @@
-// create students array
 let arrStudents = [];
-
-// function Student(firstname, lastname){
-
-// }
 
 class Student {
   constructor(nama, umur, uang) {
@@ -58,7 +53,6 @@ async function submitData(form) {
 }
 
 function showTableData() {
-  //Tabel Pendaftar
   var outputHTML = "";
 
   outputHTML += "<table border='1px' width='600'>";
@@ -114,17 +108,3 @@ function average() {
 
   document.getElementById("empTable2").innerHTML = outputAngka;
 }
-
-
-
-//  Rata-rata Uang
-// function findAverageUang(arrStudents) {
-// console.log(arrStudents.uang);
-//   let avg = 0;
-//   for (let i = 0; i < arrStudents.length; i++) {
-//     avg += arrStudents[i].Uang;
-//   }
-//   avg = avg / arrStudents.length;
-//   rataUang.push(avg);
-//   return avg;
-// }
