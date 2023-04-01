@@ -1,0 +1,80 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    justify-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btn {
+    width: 100%;
+}
+
+/* Style the tab */
+.tab {
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    color: white;
+    background-color: #9690ff;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #9690ff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+table,
+th,
+td {
+    margin: 10px;
+    border: 1px solid black;
+}
+
+td {
+    padding: 10px;
+}
+
+#listPendaftar, #registrasi{
+    width: 50%
+}
+
+#empTable, #empTable2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
